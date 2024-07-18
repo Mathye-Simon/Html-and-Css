@@ -1,0 +1,114 @@
+html {
+ 
+                font-family:'Times New Roman', Times, serif;
+                font-weight: normal;
+                font-size: 40px;
+                background-color: rgb(36, 37, 37);
+                
+                width: 100%;
+}      
+
+.navigation{
+                height: 100%;
+                width: 100%;
+                
+                margin-bottom:50px;
+                
+                
+
+}
+
+a {
+                font-size: 15px;
+                text-decoration: none;
+                display: inline-block;
+                color:white;
+                padding-right: 100px;
+                padding-left: 100px;
+
+
+}
+
+/* a.indi {
+        padding: 0;
+        margin: 0;
+        color: rgb(20, 89, 238);
+} */
+
+a:hover {
+        color: aqua;
+}
+
+
+.profile {
+        margin: 0;
+}      
+                
+
+.intro{      
+                
+                width:50%;
+                padding-right: 300px;
+                padding-left: 90px;
+                background-color: rgb(36, 37, 37);
+                width:50%;
+                float: left;
+                
+
+}
+
+img.mypic {     
+                width: 50%;
+                float:right;
+                
+
+}
+
+
+p.content {     
+                margin: 0px;
+                color: rgb(219, 220, 223);
+                text-align: justify;
+                padding-left: 90px;      
+}
+
+p.meetMe {
+                margin: 0px;
+                color: rgb(111, 145, 207);
+                text-align: justify;
+                padding-left: 175px;   
+}
+p.th {
+                text-align: center;
+                background-color: lightgray     ;
+}
+table{          width: 100%;
+                text-align: justify;
+                border-collapse: collapse;
+                background-color: lightgray;
+               
+}
+table tr:nth-child(odd){
+                background-color: rgb(0, 255, 76);
+                padding: 10px;
+                color: white;
+                
+        
+}
+
+.heading {
+
+        color: rgb(111, 145, 207);
+        text-align: justify;
+        padding-left: 90px;
+        font-size: 60px;
+        margin-bottom: 11px;
+}
+
+a.projects {
+
+        color: rgb(111, 100, 207);
+        font-family: 'Times New Roman', Times, serif;
+        padding: 0%;
+}
+        
