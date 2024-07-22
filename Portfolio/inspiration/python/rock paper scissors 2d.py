@@ -1,23 +1,23 @@
-
-def winner(first,second):
+#back when I was in a nice environment :
+def winner(move,second):
     posible_m = ['rock','paper', 'scissors']
-    if first not in posible_m:
+    if move not in posible_m:
         return 'invalid'
-    if first == 'paper':
-        if first == second:
+    if move == 'paper':
+        if move == second:
             return 'draw'
         elif second == 'rock':
-            return 'winner '+ '('+first+ ' '+ second+')'+ '== '+ first
+            return 'winner '+ '('+move+ ' '+ second+')'+ '== '+ first
         elif second == 'scissors':
-            return 'winner '+ '('+first+ ' '+ second+')'+ '== '+ second
+            return 'winner '+ '('+move+ ' '+ second+')'+ '== '+ second
 
-    elif first== 'rock':
-        if first == second:
+    elif move== 'rock':
+        if move == second:
             return 'draw'
         elif second == 'paper':
-            return 'winner '+ '('+first+ ' '+ second+')'+ '== '+ second
+            return 'winner '+ '('+move+ ' '+ second+')'+ '== '+ second
         elif second == 'scissors':
-            return 'winner '+ '('+first+ ' '+ second+')'+ '== '+ first
+            return 'winner '+ '('+move+ ' '+ second+')'+ '== '+ first
    
     elif first== 'scissors':
         if first == second:
@@ -26,6 +26,6 @@ def winner(first,second):
             return 'winner '+ '('+first+ ' '+ second+')'+ '== '+ first
         elif second == 'rock':
             return 'winner '+ '('+first+ ' '+ second+')'+ '== '+ second
-
-move = input('WHat will it be: ')
+##
+move = input('What will it be: ')
 print(winner(move, 'scissors'))
