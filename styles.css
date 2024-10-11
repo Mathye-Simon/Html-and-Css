@@ -1,43 +1,54 @@
-* {
+/* * {
         outline: 2px solid rgb(196, 112, 112);
-}
+} */
 html {
  
-                font-family:Arial, Helvetica, sans-serif;
-                font-weight: normal;
-                font-size: 40px;
-                background-color: rgb(36, 37, 37);
-                font-weight: 155;
-                width: 100%;
-                padding-left: 20px;
-}      
-h1 {
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: normal;
+        font-size: 40px;
+        background-color: rgb(72, 73, 73);      
+        font-weight: 155;
+        width: 100%;
+        padding: 0%;
         margin: 0%;
-        font-size: 50px;
-        color: white;   
-        margin-bottom: 20px;
+
+}      
+body {
+        margin: 0;
+}
+h1 {    background-color: rgb(36, 37, 37);
+        margin: 0%;
+        font-size: 35px;
+        color: rgb(111, 145, 207);  
+        font-weight: 150;
+        padding-bottom: 20px;
+        padding-top: 40px;
+        
 }
 /* The padding makes sure the nav section starts at the middle of the web */
 .navigation{
-                height: 100%;
-                width: 100%;
-                display: flex;
-                justify-content:left;
-                text-align: center;
-                margin-bottom:50px;
-                gap: 20px;
+        
+        background-color: rgb(36, 37, 37);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content:left;
+        text-align: center;
+        padding-bottom: 20px;
+        gap: 20px;
+
                 
 }
 
-
 /* targets all links */
 a {
-                font-size: 20px;
-                text-decoration: none;
-                display: inline;
-                text-align: center;
-                color:white;
-                font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        display: inline;
+        text-align: center;
+        color: white;
+        font-weight: 150;
+        font-family: Arial, Helvetica, sans-serif;
 
 
 }
@@ -48,75 +59,46 @@ a:hover {
         transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-/* the master div */
 .profile {
-        width: 100%;
         display: inline;
 }      
                 
-/* content div */
+/* introduction div */
 .intro{      
-                
-                width:50%;
-                height: 315px;
-                background-color: rgb(36, 37, 37);
-                float: left;    
+        padding-top: 40px;     
 
 }
 
-/* picture div */
-.mypic {         
-                width: 50%;
-                float:right;               
-                
 
-}
-
-/* paragraph element inside content div */
-p.content {     
-                
-                padding-right: 35px;
-                padding-left: 100px;    
-                color: rgb(219, 220, 223);
-                text-align: justify;
+p {     
+  
+        color: black;
+        text-align: justify;
+        font-size: 20px;
                      
-}
-
-
-/* what this does is that it controls the size of the image inside the mypic div */
-img.sideP {     
-                
-                margin-left: 275px;
-                width: 442px;
-                height: 442px;
-                   
 }
             
         
-.meetMe {
-        margin-top: 50px;       
-        margin-left: 100px;    
+.meetMe {  
         color: rgb(219, 220, 223);
         text-align: justify;
         
 }
 
-.heading {
-        padding-left: 100px;
+#sections {
+        padding: 40px;
+        
+}
+.headings {
         font-family: 'Arial Bold', sans-serif;
-        font-weight: 150;
         margin-left: 0px; 
-        color: rgb(111, 145, 207);
-        text-align: justify;
-        font-size: 60px;
-        margin-bottom: 11px;
+        color: rgb(7, 7, 7);
+        margin-bottom: 20px;
         margin-top: 0%;
+        font-size: 25px;        
+
 }
 
-
-nav.socials {
-        padding-left: 50px;
-}
 
 img {
         height: 35px;
