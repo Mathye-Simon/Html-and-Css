@@ -1,0 +1,122 @@
+* {
+        outline: 2px solid red;
+}
+html {
+ 
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                font-size: 40px;
+                background-color: rgb(36, 37, 37);
+                font-weight: 155;
+                width: 100%;
+}      
+
+/* The padding makes sure the nav section starts at the middle of the web */
+.navigation{
+                height: 100%;
+                width: 100%;
+                justify-items: center;
+                text-align: center;
+                margin-bottom:50px;
+                margin-top:30px;
+                padding-left: 350px;
+                
+}
+
+
+/* targets all links */
+a {
+                font-size: 25px;
+                text-decoration: none;
+                display: inline;
+                text-align: center;
+                color:white;
+                margin-right: 50px;
+                margin-left: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+/* what happens when you hover over a link */
+a:hover {
+        color: rgb(111, 145, 207);
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* the master div */
+.profile {
+        width: 100%;
+        display: inline;
+}      
+                
+/* content div */
+.intro{      
+                
+                width:50%;
+                height: 315px;
+                
+                background-color: rgb(36, 37, 37);
+                float: left;    
+
+}
+
+/* picture div */
+.mypic {         
+                width: 50%;
+                float:right;               
+                
+
+}
+
+/* paragraph element inside content div */
+p.content {     
+                
+                padding-right: 35px;
+                padding-left: 100px;    
+                color: rgb(219, 220, 223);
+                text-align: justify;
+                     
+}
+
+
+/* what this does is that it controls the size of the image inside the mypic div */
+img.sideP {     
+                
+                margin-left: 275px;
+                width: 442px;
+                height: 442px;
+                   
+}
+            
+        
+.meetMe {
+        margin-top: 50px;       
+        margin-left: 100px;    
+        color: rgb(219, 220, 223);
+        text-align: justify;
+        
+}
+
+.heading {
+        padding-left: 100px;
+        font-family: 'Arial Bold', sans-serif;
+        font-weight: 150;
+        margin-left: 0px; 
+        color: rgb(111, 145, 207);
+        text-align: justify;
+        font-size: 60px;
+        margin-bottom: 11px;
+        margin-top: 0%;
+}
+
+
+nav.socials {
+        padding-left: 50px;
+}
+
+img {
+        height: 35px;
+}
+
+        
