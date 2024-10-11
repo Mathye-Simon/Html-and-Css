@@ -1,5 +1,5 @@
 * {
-        outline: 2px solid red;
+        outline: 2px solid rgb(196, 112, 112);
 }
 html {
  
@@ -9,30 +9,34 @@ html {
                 background-color: rgb(36, 37, 37);
                 font-weight: 155;
                 width: 100%;
+                padding-left: 20px;
 }      
-
+h1 {
+        margin: 0%;
+        font-size: 50px;
+        color: white;   
+        margin-bottom: 20px;
+}
 /* The padding makes sure the nav section starts at the middle of the web */
 .navigation{
                 height: 100%;
                 width: 100%;
-                justify-items: center;
+                display: flex;
+                justify-content:left;
                 text-align: center;
                 margin-bottom:50px;
-                margin-top:30px;
-                padding-left: 350px;
+                gap: 20px;
                 
 }
 
 
 /* targets all links */
 a {
-                font-size: 25px;
+                font-size: 20px;
                 text-decoration: none;
                 display: inline;
                 text-align: center;
                 color:white;
-                margin-right: 50px;
-                margin-left: 50px;
                 font-family: Arial, Helvetica, sans-serif;
 
 
@@ -55,7 +59,6 @@ a:hover {
                 
                 width:50%;
                 height: 315px;
-                
                 background-color: rgb(36, 37, 37);
                 float: left;    
 
