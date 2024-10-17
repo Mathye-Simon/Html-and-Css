@@ -10,53 +10,71 @@
     
 
 <!-- navigation --> 
- <h1>My Portfolio</h1>
-    <div class="navigation">
+<h1>My Portfolio</h1>
+<div class="navigation">
             
-            <a href="index.html">About</a>
-            <a href="Projects and skills.html">Projects!</a>
-            <a href="Skills">Skills</a>
-            <a href="Contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects!</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
         
-    </div>
+</div>
 
 
 
 
 
 <!-- profile is the div containing the mypic div and the Intro div -->
-<div class="profile">        
-       
-     <!-- sections-->
-        <div class="intro" id="sections">    
+
+<div class="profile">         
+         <!-- sections-->
+        <div class="intro" id="sections">   
+
+            <a name="about"></a>
             <h2 class="headings">About Me</h2>
             <p>Hi, my name is Mathye Tsakane, I am a 19 year old IT student undergoing the process of breaking into the tech industry.
                 I am currently learning different technologies and software to increase my knowledge and versatily. I am a Web Developer, 
                 a natural problem solver and I focus on Front End Development technologies such as HTML, Css plus Javascript and also pushing my knowledge on Back End Web Development technologies such as Node js and Express js. I love writing logic and debugging with all of my heart. I am a well driven individual and ready for anything thrown in my way.</p> 
+        
         </div>
 
+        <!-- Skills section-->
+        
+        <div class="skills-container" id="sections">
+            
+            <h2 class="headings">
+                <a name="skills"></a>
+                Skills  
+            </h2>
+        <!-- "magic" happens when dom is loaded -->
+            <div class="skills"> </div>
+
+        </div>
+            
         <div class="projects" id="sections">
-            <h2 class="headings">Projects</h2>
-        </div>
 
-        <div class="skills" id="sections">
-            <h2 class="headings">Skills</h2>
+            <a name="projects"></a>
+            <h2 class="headings">Projects</h2>
+            <h6 class="subHeadings">Project 1</h6>
+            <p>WORK IN PROGRESS</p>
         </div>
 
         <div class="socials" id="sections">
+
+            <a name="contact"></a>
             <h2 class="headings">Contact me!</p>
             <a href="404.html"><img src="assets/facebook.png" alt=""></a>
             <a href="https://wa.me/+276629042828"><img src="assets/whatsapp.png" alt=""></a>
             <!-- <a><img src="assets/linkedin.png" alt=""></a> -->
             <a href="mailto:mathye.tsakane.simon@gmail.com"><img src="assets/gmail.png" alt=""></a>
+
         </div>
 
 
 </div>
 
-             <!-- section header -->
 
-
+<script src="logic.js"></script>
 
     
 </body>
