@@ -1,4 +1,4 @@
-const skills = document.querySelector('.skills')
+const tech = document.querySelector('.tech')
 const values = {'Microsoft-Office': 75,'Javascript': 70, 'HTML': 70, 'GitHub': 70, 'CSS': 60,
                 'Python': 50, 'Git': 50, 'Express-js': 50, 'MYSQL-Database': 40, 'Node-js': 40, 'SQL': 30}
 
@@ -23,14 +23,25 @@ function createBarFill(values) {
 
         progressBarFill.style.width = `${width}%`;
         progressBarLabel.textContent = width;
+        
+        // logic for gauge
+            if (width >= 0 && width <= 30) {
+                progressBarFill.style.backgroundColor = 'red';
+            } 
+            else if (width >= 30 && width <= 60) {
+                progressBarFill.style.backgroundColor = 'orange';
+            } 
+            else if (width >= 60 && width <= 99) {
+                progressBarFill.style.backgroundColor = 'green';
+            } 
 
 
         progressBarContainer.append(progressBarFill, progressBarLabel)
         titles.append(progressBarContainer)
-        skills.append(titles)
-        console.log(progressBarContainer)
+        tech.append(titles)
+        // console.log(progressBarContainer)
     });
 }
-
+// call
 createBarFill(values)
 

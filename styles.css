@@ -64,14 +64,15 @@ a:hover {
                 
 /* introduction div */
 .intro{      
-        padding-top: 40px;     
+        padding-top: 40px;  
+        padding-bottom: 0;
 
 }
 
 
 p {     
   
-        color: RGB(255, 255, 113);
+        color: rgb(255, 255, 113);
         text-align: justify;
         font-size: 20px;
                      
@@ -85,13 +86,14 @@ p {
 }
 
 #sections {
-        padding: 40px;
+        padding-top: 40px;
         
 }
+
 .headings {
         font-family: 'Arial Bold', sans-serif;
         margin-left: 0px; 
-        color: RGB(240, 240, 240);
+        color: rgb(240, 240, 240);
         margin-bottom: 20px;
         margin-top: 0%;
         font-size: 25px;        
@@ -102,7 +104,7 @@ p {
         font-size: 25px;
         font-family: 'Arial Bold', sans-serif;
         margin-left: 0px; 
-        color: RGB(192, 192, 192);
+        color: rgb(192, 192, 192);
         margin-bottom: 20px;
         margin-top: 0%;
         font-size: 20px; 
@@ -116,19 +118,20 @@ img {
 
 /* gauge */
 
-.skills {
+.tech {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 20px;
 }
 
+
 .progress-bar-container {
         width: 300px;
         margin: 5px;
         position: relative;
         height: 20px;
-        background-color: #eee;
+        background: rgb(234, 248, 164);      
         border-radius: 5px;
         overflow: hidden;
 /**     outline: 2px solid rgb(196, 112, 112); */
@@ -137,14 +140,10 @@ img {
       .titles {
         font-size: 20px;
       }
-      li {
-        list-style-type: none;
-      }
       
       .progress-bar-fill {
         height: 100%;
-        background-image: linear-gradient( rgb(111, 145, 207), RGB(113, 255, 113))
-        
+        background: linear-gradient(to bottom, rgba(175, 161, 161, 0.5), rgba(201, 218, 140, 0));
       }
       
       .progress-bar-label {
@@ -155,3 +154,41 @@ img {
         color: black;
       }
         
+#soft-heading {
+        margin-top: 20px;
+}
+ul {
+        padding: 0%;
+        list-style-type: none;
+        font-size: 20px;
+        color: black;
+        font-weight: 1000;
+}
+
+#context {
+        color: black  ;
+        font-weight: 100;
+}
+
+img {
+        height: 20px;
+}
+
+.projects-section {
+        background-color: rgb(172, 115, 115);
+
+}
+
+.projects {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+}
+/* project pictures */
+.project-imgs {
+        height: 200px;
+}
+
+        #sketch {
+                height: 250px;
+        }
